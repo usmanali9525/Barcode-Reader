@@ -31,7 +31,7 @@ def main():
 
         barcode_data, barcode_type, barcode_box = decode_barcode(frame)
         if barcode_data:
-            #sdghjmk,fdxfbvgn
+            
             print(f"Barcode Type: {barcode_type}")
             print(f"Barcode Data: {barcode_data}")
 
