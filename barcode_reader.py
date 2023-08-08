@@ -5,7 +5,7 @@ def load_image(image_path):
     return cv2.imread(image_path)
 
 # Provide the image file path
-image_path = "Images/captured_image.png"
+image_path = "Images/datamatrix.png"
 image = load_image(image_path)
 
 def decode_barcode(image):
